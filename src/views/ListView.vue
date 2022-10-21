@@ -1,7 +1,7 @@
 
 <template>
   <main>
-    <h2>Liste des tâches</h2>
+    <h1>Liste des tâches</h1>
     <div class="list-container">
       <h3 class="text-center"> Tâches complétées : {{completedTasks}} / {{list.length}}</h3>
       <TextInput @newValue ="addItem"/>
